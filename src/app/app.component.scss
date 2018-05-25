@@ -1,0 +1,70 @@
+$bg-gray: #dcdee1;
+$bg-blue: #3f51b5;
+$bg-white: #ffffff;
+
+
+.container {
+    height: 100%;
+    button{
+        background: transparent;
+        color: #fff;
+        border: 0
+    }
+}
+h1 {
+    text-align: left;
+    font-size: 2.0rem;
+    color:#b3b7bc;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+.bg-gray {
+    background-color:$bg-gray;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    .bg-blue {
+        background-color: $bg-blue;
+        height: 210px;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .bg-white {
+        position: absolute;
+        width: 1040px;
+        padding: 2rem;
+        height: 100%;
+        right: 0;
+        left: 0;
+        top: 19rem;
+        bottom: 0;
+        margin: auto;
+    }
+}
+form {
+    margin-bottom: 4rem;
+    h2 { 
+        font-size: 1.2rem;
+        color: #666;
+        border-bottom: 1px solid #999;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+
+    }
+    label {
+        font-size: 1.2rem;
+        border-bottom: 1px solid #999;
+    }
+    input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        display: block;
+        padding: 1rem 0;
+    }
+}
